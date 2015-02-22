@@ -4,14 +4,12 @@ public class HI {
 		// TODO Auto-generated method stub
 		System.out.println("Hello");
 
-		for (int i = 0; i < 10; i++) {
-
-			for (int j = 0; j < 10; j++) {
-				if (true) {
-					// Do nothing
-				}
-			}
-		}
+		int i = 0;
+		int j = 0;
+		int k = 0;
+		
+		System.out.println(1/0.0);
+		//System.out.printf("i:%d\tj:%d\tk:%d\n",i,j,k);
 	}
 
 }
